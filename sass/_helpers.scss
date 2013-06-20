@@ -65,7 +65,7 @@
  */
 
 	// MIXIN VERSION
-	--------------------------------------------------------
+	// --------------------------------------------------------
 	// BY http://www.iconinc.com.au/
 	// http://nicolasgallagher.com/micro-clearfix-hack/#comment-29398
 
@@ -124,7 +124,7 @@
 	---------------------------------------------
 	* 	CLEAR UNITS FROM VALUES
 	*	@nex3
-	*	https://github.com/nex3/sass/issues/533 */
+	*	https://github.com/nex3/sass/issues/533 
 
 	==============================================  */
 
@@ -156,7 +156,7 @@
 	---------------------------------------------
 	* 	Turn numbers with units into unitless numbers
 	*	@nex3
-	*	https://github.com/nex3/sass/issues/533 */
+	*	https://github.com/nex3/sass/issues/533 
 
 	==============================================  */
 
@@ -192,19 +192,23 @@
 	@mixin mq($bp) {
 
 		@if $bp == s {
-			@media only screen and (min-width: px2em($bp-s)) { 		@comontent; 
+			@media only screen and (min-width: px2em($bp-s)) { 		
+				@content; 
 				}
 		}
 		@else if $bp == m {
-			@media only screen and (min-width: px2em($bp-m)) { 		@content; 
+			@media only screen and (min-width: px2em($bp-m)) { 		
+				@content; 
 			}
 		}
 		@else if $bp == w {
-			@media only screen and (min-width: px2em($bp-w)) { 		@content; 
+			@media only screen and (min-width: px2em($bp-w)) { 		
+				@content; 
 			}
 		}
 		@else if $bp == xw {
-			@media only screen and (min-width: px2em($bp-xw)) { 	@content; 
+			@media only screen and (min-width: px2em($bp-xw)) { 	
+				@content; 
 			}
 		}
 
