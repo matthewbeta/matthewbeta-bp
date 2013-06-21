@@ -8,7 +8,7 @@
 
 	============================================== 	*/
 
-	@import "compass/reset";
+	// @import "compass/reset";
 	@import "compass/css3/border-radius";
 	@import "compass/css3/images";
 	@import "compass/css3/box-sizing";
@@ -69,8 +69,8 @@
 	============================================== 	*/
 
 	$footer-height: 17em;
-	$body-container : .wrap;
-	$footer-container : .footer;
+	$body-container : ".wrap";
+	$footer-container : ".footer";
 	
 
 	/* 	=============================================

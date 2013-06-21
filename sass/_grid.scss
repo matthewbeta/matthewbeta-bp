@@ -36,10 +36,10 @@
 ==============================================*/
 
 	.s-1 {
-		@include cols($g-u-sml, 1);
+		@include cols($grid-units-sml, 1);
 	}
 	.s-2 {
-		@include cols($g-u-sml, 2);
+		@include cols($grid-units-sml, 2);
 	}
 
 /* =============================================
@@ -49,10 +49,10 @@
 ==============================================*/
 
 	.s-push-1 {
-		@include offset($g-u-sml, 1)
+		@include offset($grid-units-sml, 1)
 	}
 	.s-push-2 {
-		@include offset($g-u-sml, 2)
+		@include offset($grid-units-sml, 2)
 	}
 
 @include mq(m) {
@@ -64,19 +64,19 @@
 ==============================================*/
 
 	.m-1 {
-		@include cols($g-u-med, 1);
+		@include cols($grid-units-med, 1);
 	}
 	.m-2 {
-		@include cols($g-u-med, 2);
+		@include cols($grid-units-med, 2);
 	}
 	.m-3 {
-		@include cols($g-u-med, 3);
+		@include cols($grid-units-med, 3);
 	}
 	.m-4 {
-		@include cols($g-u-med, 4);
+		@include cols($grid-units-med, 4);
 	}
 	.m-5 {
-		@include cols($g-u-med, 5);
+		@include cols($grid-units-med, 5);
 	}
 
 /* =============================================
@@ -86,19 +86,19 @@
 ==============================================*/
 
 	.m-push-1 {
-		@include offset($g-u-med, 1)
+		@include offset($grid-units-med, 1)
 	}
 	.m-push-2 {
-		@include offset($g-u-med, 2)
+		@include offset($grid-units-med, 2)
 	}
 	.m-push-3 {
-		@include offset($g-u-med, 3)
+		@include offset($grid-units-med, 3)
 	}
 	.m-push-4 {
-		@include offset($g-u-med, 4)
+		@include offset($grid-units-med, 4)
 	}
 	.m-push-5 {
-		@include offset($g-u-med, 5)
+		@include offset($grid-units-med, 5)
 	}
 	
 }
@@ -113,47 +113,47 @@
 			
 		/*1/12*/
 		.w-1 {
-		  	@include cols($g-u-wide, 1);
+		  	@include cols($grid-units-wide, 1);
 		}
 		/*2/12*/
 		.w-2 {
-		  	@include cols($g-u-wide, 2);
+		  	@include cols($grid-units-wide, 2);
 		}
 		/*3/12*/
 		.w-3 {
-		 	@include cols($g-u-wide, 3);
+		 	@include cols($grid-units-wide, 3);
 		}
 		/*4/12*/
 		.w-4 {
-		   	@include cols($g-u-wide, 4);
+		   	@include cols($grid-units-wide, 4);
 		}
 		/*5/12*/
 		.w-5 {
-		  	@include cols($g-u-wide, 5);
+		  	@include cols($grid-units-wide, 5);
 		}
 		/*6/12*/
 		.w-6 {
-		 	@include cols($g-u-wide, 6);
+		 	@include cols($grid-units-wide, 6);
 		}
 		/*7/12*/
 		.w-7 {
-		 	@include cols($g-u-wide, 7);
+		 	@include cols($grid-units-wide, 7);
 		}
 		/*8/12*/
 		.w-8 {
-		 	@include cols($g-u-wide, 8);
+		 	@include cols($grid-units-wide, 8);
 		}
 		/*9/12*/
 		.w-9 {
-		  	@include cols($g-u-wide, 9);
+		  	@include cols($grid-units-wide, 9);
 		}
 		/*10/12*/
 		.w-10 {
-		  	@include cols($g-u-wide, 10);
+		  	@include cols($grid-units-wide, 10);
 		}
 		/*11/12*/
 		.w-11 {
-		  	@include cols($g-u-wide, 11);
+		  	@include cols($grid-units-wide, 11);
 		}
 
 
@@ -166,47 +166,47 @@
 
 		/*1/12*/
 		.w-push-1 { 
-			@include offset($g-u-wide, 1)
+			@include offset($grid-units-wide, 1)
 		}
 		/*2/12*/
 		.w-push-2 {
-		  @include offset($g-u-wide, 2)
+		  @include offset($grid-units-wide, 2)
 		}
 		/*3/12*/
 		.w-push-3 {
-		  @include offset($g-u-wide, 3)
+		  @include offset($grid-units-wide, 3)
 		}
 		/*4/12*/
 		.w-push-4 {
-		  @include offset($g-u-wide, 4)
+		  @include offset($grid-units-wide, 4)
 		}
 		/*5/12*/
 		.w-push-5 {
-		  @include offset($g-u-wide, 5)
+		  @include offset($grid-units-wide, 5)
 		}
 		/*6/12*/
 		.w-push-6 {
-		  @include offset($g-u-wide, 6)
+		  @include offset($grid-units-wide, 6)
 		}
 		/*7/12*/
 		.w-push-7 {
-		 @include offset($g-u-wide, 7)
+		 @include offset($grid-units-wide, 7)
 		}
 		/*8/12*/
 		.w-push-8 {
-		  @include offset($g-u-wide, 8)
+		  @include offset($grid-units-wide, 8)
 		}
 		/*9/12*/
 		.w-push-9 {
-		  @include offset($g-u-wide, 9)
+		  @include offset($grid-units-wide, 9)
 		}
 		/*10/12*/
 		.w-push-10 {
-		  @include offset($g-u-wide, 10)
+		  @include offset($grid-units-wide, 10)
 		}
 		/*11/12*/
 		.w-push-11 {
-		  @include offset($g-u-wide, 11)
+		  @include offset($grid-units-wide, 11)
 		}
 	}
 		
